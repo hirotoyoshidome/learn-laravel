@@ -61,3 +61,12 @@ vi app/Http/Controllers/XxxController.php
 vi resources/views/xxx.blade.php
 ```
 
+## アプリケーション
+* 単純にHelloWorldを出力するだけ
+
+http://localhost:8000/
+
+へアクセス
+
+Heroku環境にデプロイして、CircleCIをためすためのリポジトリ
+
