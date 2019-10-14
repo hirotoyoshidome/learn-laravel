@@ -70,3 +70,34 @@ http://localhost:8000/
 
 Heroku環境にデプロイして、CircleCIをためすためのリポジトリ
 
+
+## Heroku
+* HerokuにCLIからログイン
+
+```
+heroku login
+```
+
+* プロジェクトを作成する
+
+```
+heroku create my-app-php-laravel --buildpack heroku/php
+```
+* Procfileを作成する
+
+* 国際化モジュールを設定する
+
+```
+composer require ext-intl:*
+```
+
+* 本番環境でhttpsを強制する
+
+```
+vi app/Providers/AppServiceProvider.php
+```
+
+* gitのリモートに追加する
+
+```
+```
