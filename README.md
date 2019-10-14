@@ -109,8 +109,20 @@ git remote add heroku https://git.heroku.com/my-app-php-laravel.git
 git push heroku master
 ```
 
+* 
+
+```
+heroku run php artisan key:generate
+```
+
 * 確認
 
 https://my-app-php-laravel.herokuapp.com/
 
 
+* エラーの場合の確認
+
+```
+heroku config:set APP_DEBUG=true
+heroku logs -a my-app-php-laravel
+```
