@@ -109,7 +109,7 @@ git remote add heroku https://git.heroku.com/my-app-php-laravel.git
 git push heroku master
 ```
 
-* 
+* キー生成
 
 ```
 heroku run php artisan key:generate
