@@ -100,4 +100,17 @@ vi app/Providers/AppServiceProvider.php
 * gitのリモートに追加する
 
 ```
+git remote add heroku https://git.heroku.com/my-app-php-laravel.git
 ```
+
+* デプロイ
+
+```
+git push heroku master
+```
+
+* 確認
+
+https://my-app-php-laravel.herokuapp.com/
+
+
